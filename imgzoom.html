@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Zoom on Hover</title>
+    <style>
+        .zoom-container {
+            position:;
+            width: 450px;
+            overflow: hidden;
+			margin:5px;
+				background-color:transparent;
+        }
+		
+
+        .zoom-image {
+            width: 100%;
+            height: auto;
+			
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .zoom-container:hover .zoom-image {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+<center>
+<h2>Image Zoom On Hover</h2>
+    <div class="zoom-container">
+        <img src="file:///C:/Users/ELCOT/Desktop/city.jpg" alt="Zoomable Image" class="zoom-image">
+		
+    </div>
+	</center>
+</body>
+</html>
